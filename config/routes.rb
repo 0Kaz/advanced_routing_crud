@@ -4,5 +4,8 @@ Rails.application.routes.draw do
     collection do
       get :top
     end
+    member do 
+      get :chef
+    end
   end
 end

@@ -11,6 +11,8 @@
         - [Seeding](#seeding)
         - [Destroy ALL](#destroy_all)
         - [Route for 5 stars restaurants Example](#route-for-5-stars-restaurants-example)
+        - [Adding a chef example](#adding-a-chef-example)
+- [Nested Resources](#nested-resources)
 
 # SETTING UP OUR ENVIRONMENT 
 
@@ -196,3 +198,50 @@ top_restaurants GET  /restaurants/top(.:format) restaurants#top
     <h1><%= res.name %></h1>
 <% end %>
 ```
+
+## Adding a chef example
+
+```code
+rails g migration AddChefNameToRestaurants chef_name:string
+rails db:migrate
+```
+
+**Routes**
+```ruby
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :restaurants do
+    collection do
+      get :top
+    end
+    member do 
+      get :chef
+    end
+  end
+end
+
+```
+
+
+```code
+
+        > rails routes -g chef
+         Prefix Verb URI Pattern                     Controller#Action
+chef_restaurant GET  /restaurants/:id/chef(.:format) restaurants#chef
+```
+
+**Controller**
+
+```ruby
+    before_action :set_restaurant, only: %i[ show edit update destroy **chef** ]
+
+  ...
+  def chef
+    @chef_name = @restaurant.chef_name
+  end
+  ...
+
+```
+# Nested resources
+
+Let's add a review to our restaurant example 
