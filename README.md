@@ -161,7 +161,7 @@ end
 ```console
         > rails routes
          Prefix Verb   URI Pattern                     Controller#Action
-**top_restaurants GET    /restaurants/top(.:format)      restaurants#top**
+top_restaurants GET    /restaurants/top(.:format)      restaurants#top
     restaurants GET    /restaurants(.:format)          restaurants#index
                 POST   /restaurants(.:format)          restaurants#create
  new_restaurant GET    /restaurants/new(.:format)      restaurants#new
@@ -233,7 +233,7 @@ chef_restaurant GET  /restaurants/:id/chef(.:format) restaurants#chef
 **Controller**
 
 ```ruby
-    before_action :set_restaurant, only: %i[ show edit update destroy **chef** ]
+    before_action :set_restaurant, only: %i[ show edit update destroy chef ]
 
   ...
   def chef
