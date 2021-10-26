@@ -169,3 +169,30 @@ edit_restaurant GET    /restaurants/:id/edit(.:format) restaurants#edit
                 PUT    /restaurants/:id(.:format)      restaurants#update
                 DELETE /restaurants/:id(.:format)      restaurants#destroy
 ```
+
+You can also filter your routes by specifying the action you are looking for: 
+
+```console 
+        > rails routes -g top
+         Prefix Verb URI Pattern                Controller#Action
+top_restaurants GET  /restaurants/top(.:format) restaurants#top
+```
+
+**Controller**
+```ruby
+  ...
+  def top
+    @restaurants = Restaurant.where(stars: 5)
+  end
+  ...
+```
+**View**
+
+```ruby
+#app/views/restaurants/top.html.erb
+<h1>Top 5 stars Restaurants</h1>
+
+<% @restaurants.each do |res| %>
+    <h1><%= res.name %></h1>
+<% end %>
+```
