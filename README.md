@@ -3,18 +3,18 @@
 
 ***SUMMARY***
 - [Setting Up Our Environment](#setting-up-our-environment)
-        - [Bootstrap](#bootstrap)
-        - [Simple Form](#simple_form)
+       - [Bootstrap](#bootstrap)
+       - [Simple Form](#simple_form)
 - [Advanced CRUD](#advanced-CRUD)
-        - [Resources](#simple_form)   
-        - [Scaffold](#scaffold)
-        - [Seeding](#seeding)
-        - [Destroy ALL](#destroy_all)
-        - [Route for 5 stars restaurants Example](#route-for-5-stars-restaurants-example)
-        - [Adding a chef example](#adding-a-chef-example)
+       - [Resources](#simple_form)   
+       - [Scaffold](#scaffold)
+       - [Seeding](#seeding)
+       - [Destroy ALL](#destroy_all)
+       - [Route for 5 stars restaurants Example](#route-for-5-stars-restaurants-example)
+       - [Adding a chef example](#adding-a-chef-example)
 - [Nested Resources](#nested-resources)
-        - [Adding a review to restaurant example](#adding-a-review-to-restaurant-example)
-        - [Destroying a review to a restaurant example](#destroying-a-review-to-a-restaurant-example)
+       - [Adding a review to restaurant example](#adding-a-review-to-restaurant-example)
+       - [Destroying a review to a restaurant example](#destroying-a-review-to-a-restaurant-example)
 - [Challenge Yelp MVP Tips]()
         
 
@@ -417,3 +417,5 @@ end
   <% end %>
 </ul>
 ```
+
+## Challenge Yelp MVP
