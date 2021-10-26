@@ -41,5 +41,18 @@ Don't forget to bundle install & generate simple_form :wink:
 ```code 
 bundle install
 rails generate simple_form:install --bootstrap
+```
+
+## Resources
+
+resources is another way to generate the 7 standard CRUD actions in your project
+
+```ruby
+# config/routes.rb
+Rails.application.routes.draw do
+  resources :restaurants
+end
 
 ```
+
+## Warning : DO NOT USE SCAFFOLD ON YOUR PROJECTS/CHALLENGES OF THE DAY
