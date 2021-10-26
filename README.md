@@ -15,7 +15,7 @@
 - [Nested Resources](#nested-resources)
         - [Adding a review to restaurant example](#adding-a-review-to-restaurant-example)
         - [Destroying a review to a restaurant example](#destroying-a-review-to-a-restaurant-example)
-- [Challenge Yelp MVP Tips]()
+- [Challenge Yelp MVP Tips](#challenge-yelp-mvp-tips)
         
 
 # SETTING UP OUR ENVIRONMENT 
