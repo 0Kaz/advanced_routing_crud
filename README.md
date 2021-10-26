@@ -2,9 +2,14 @@
 
 
 ***SUMMARY***
-- []()
-        - []()
+- [Setting Up Our Environment](#setting-up-our-environment)
+        - [Bootstrap](#bootstrap)
+        - [Simple Form](#simple_form)
+- [Advanced CRUD](#advanced-CRUD)
+        - [Resources](#simple_form)   
+        - [Scaffold](#scaffold)
 
+# SETTING UP OUR ENVIRONMENT 
 
 ## BOOTSTRAP 
 
@@ -43,6 +48,8 @@ bundle install
 rails generate simple_form:install --bootstrap
 ```
 
+# Advanced CRUD
+
 ## Resources
 
 resources is another way to generate the 7 standard CRUD actions in your project
@@ -55,4 +62,29 @@ end
 
 ```
 
-## Warning : DO NOT USE SCAFFOLD ON YOUR PROJECTS/CHALLENGES OF THE DAY
+```console
+    > rails routes
+
+      Prefix Verb   URI Pattern                     Controller#Action
+    restaurants GET    /restaurants(.:format)          restaurants#index
+                POST   /restaurants(.:format)          restaurants#create
+ new_restaurant GET    /restaurants/new(.:format)      restaurants#new
+edit_restaurant GET    /restaurants/:id/edit(.:format) restaurants#edit
+     restaurant GET    /restaurants/:id(.:format)      restaurants#show
+                PATCH  /restaurants/:id(.:format)      restaurants#update
+                PUT    /restaurants/:id(.:format)      restaurants#update
+                DELETE /restaurants/:id(.:format)      restaurants#destroy
+```
+
+## Scaffold
+
+** :warning: Warning : DO NOT USE SCAFFOLD ON YOUR PROJECTS/CHALLENGES OF THE DAY  :warning:**
+
+Scaffolding in programming is a temporary structure we generate for demonstrations and should not be used in real projects at all.
+
+```code 
+
+
+```
+
+
