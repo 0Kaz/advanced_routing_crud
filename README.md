@@ -20,7 +20,7 @@
 
 # SETTING UP OUR ENVIRONMENT 
 
-## BOOTSTRAP 
+## BOOTSTRAP
 
 Today's challenges is all about using Advanced Routing and Advanced CRUD, it's best to have a better front-end, we can for now use **Bootstrap** until the next day course that will be about front-end in Rails. 
 
@@ -90,6 +90,8 @@ edit_restaurant GET    /restaurants/:id/edit(.:format) restaurants#edit
 ** :warning: Warning : DO NOT USE SCAFFOLD ON YOUR PROJECTS/CHALLENGES OF THE DAY  :warning:**
 
 Scaffolding in programming is a temporary structure we generate for demonstrations and should not be used in real projects at all.
+
+Again, please do not use scaffolding in the upcoming challenges and your projects ! :pray:	
 
 ```code 
 
@@ -437,7 +439,7 @@ We will build a two-model Rails app with a restaurant and anonymous reviews.
 7. Set up their controllers
 8. And finally work on their views
 
-### Don't leave your buddy behind and work together, like Helen Keller once said: "Alone we can do so little; together we can do so much." 
+### Don't leave your buddy behind and work together :pray: , like Helen Keller once said: "Alone we can do so little; together we can do so much." 
 
 
 
