@@ -6,6 +6,7 @@
       - [Bootstrap](#bootstrap)
       - [Simple Form](#simple_form)
  - [Advanced CRUD](#advanced-CRUD)
+      - [Rails routes Tips](#rails-routes-tips)
       - [Resources](#simple_form)   
       - [Scaffold](#scaffold)
       - [Seeding](#seeding)
@@ -67,7 +68,31 @@ Careful where you put your gems :pray:, if you add any gem that is NOT for your 
 ![What you should not do](https://res.cloudinary.com/kzkjr/image/upload/v1635332532/blogging/Capture_d_e%CC%81cran_2021-10-27_a%CC%80_11.51.13.png)
 # Advanced CRUD
 
+## rails routes tips
+
+**To get the routes of a specific resource or action**
+```console
+rails routes | grep your_resource_or_action
+```
+
+**or** 
+
+```console
+ rails routes -g your_resource_or_action
+```
+
+
+**To get the routes of a specific controller**
+
+```console
+ rails routes -c your_controller_name
+```
+
+
+
 ## Resources
+
+
 
 resources is another way to generate the 7 standard RESTful routes in your project
 
