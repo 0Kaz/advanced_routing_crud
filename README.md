@@ -20,7 +20,7 @@
 
 # SETTING UP OUR ENVIRONMENT 
 
-## BOOTSTRAP 
+## BOOTSTRAP
 
 Today's challenges is all about using Advanced Routing and Advanced CRUD, it's best to have a better front-end, we can for now use **Bootstrap** until the next day course that will be about front-end in Rails. 
 
@@ -90,6 +90,8 @@ edit_restaurant GET    /restaurants/:id/edit(.:format) restaurants#edit
 ** :warning: Warning : DO NOT USE SCAFFOLD ON YOUR PROJECTS/CHALLENGES OF THE DAY  :warning:**
 
 Scaffolding in programming is a temporary structure we generate for demonstrations and should not be used in real projects at all.
+
+Again, please do not use scaffolding in the upcoming challenges and your projects ! :pray:	
 
 ```code 
 
@@ -378,7 +380,7 @@ Before we start configuring our routes, remember that we don't nest routes when 
 
 :warning: We have to avoid deep levels of nesting.
 
-For a deep dive in shallow nesting, check out this link :right-pointer: https://guides.rubyonrails.org/routing.html#shallow-nesting
+For a deep dive in shallow nesting, check out this link :point_right: https://guides.rubyonrails.org/routing.html#shallow-nesting
 
 **Routes**
 
@@ -420,11 +422,13 @@ end
 
 ## Challenge Yelp MVP tips
 
-```Guess what? Rake is BACK``` :love:
+```Guess what? Rake is BACK``` :green_heart: :t-rex:	
 
 In this challenge, you will have the perfect opportunity to use nested resources + CRUD. 
 
-I will recommend you guys to read the whole exercice so that you can have a little idea of the big picture before starting coding, my advice is to not code anything until you finish reading your whole challenge.
+I will recommend you guys to read the whole exercice so that you can have a little idea of the big picture before starting coding.
+
+One more advice I would share, don't start coding right away until you finish reading your whole challenge, our challenges in the Rails track and the upcoming ones are constructive through guidelines.
 
 We will build a two-model Rails app with a restaurant and anonymous reviews.
 
@@ -437,7 +441,7 @@ We will build a two-model Rails app with a restaurant and anonymous reviews.
 7. Set up their controllers
 8. And finally work on their views
 
-### Don't leave your buddy behind and work together, like Helen Keller once said: "Alone we can do so little; together we can do so much." 
+### Don't leave your buddy behind and work together :pray: , like Helen Keller once said: "Alone we can do so little; together we can do so much." 
 
 
 
