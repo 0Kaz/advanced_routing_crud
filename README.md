@@ -426,9 +426,7 @@ end
 
 In this challenge, you will have the perfect opportunity to use nested resources + CRUD. 
 
-I will recommend you guys to read the whole exercice so that you can have a little idea of the big picture before starting coding.
-
-One more advice I would share, don't start coding right away until you finish reading your whole challenge, our challenges in the Rails track and the upcoming ones are constructive through guidelines.
+I will recommend you guys to read the whole challenge, don't start coding right away until you finish reading your whole challenge, our challenges in the Rails track and the upcoming ones are constructive through guidelines.
 
 We will build a two-model Rails app with a restaurant and anonymous reviews.
 
