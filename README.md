@@ -378,7 +378,7 @@ Before we start configuring our routes, remember that we don't nest routes when 
 
 :warning: We have to avoid deep levels of nesting.
 
-For a deep dive in shallow nesting, check out this link :right-pointer: https://guides.rubyonrails.org/routing.html#shallow-nesting
+For a deep dive in shallow nesting, check out this link :point_right: https://guides.rubyonrails.org/routing.html#shallow-nesting
 
 **Routes**
 
@@ -420,7 +420,7 @@ end
 
 ## Challenge Yelp MVP tips
 
-```Guess what? Rake is BACK``` :love:
+```Guess what? Rake is BACK``` :green_heart: :t-rex:	
 
 In this challenge, you will have the perfect opportunity to use nested resources + CRUD. 
 
