@@ -465,7 +465,7 @@ We will build a two-model Rails app with a restaurant and anonymous reviews.
 
 1. We need then 2 models (review, restaurants)
 2. Generate their controllers
-3. Configure their routes
+3. Configure their routes ( Meaning you have to use the advanced routing we saw this morning, which is either a collection, member or nested resources)
 4. Set up ```validations``` in their model
 5. Seeding !
 6. Configure their route
