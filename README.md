@@ -22,7 +22,7 @@
 
 ## BOOTSTRAP
 
-Today's challenges is all about using Advanced Routing and Advanced CRUD, it's best to have a better front-end, we can for now use **Bootstrap** until the next day course that will be about front-end in Rails. 
+Today's challenges is all about using Advanced Routing and CRUD, it's best to work on a better front-end, we can for now use **Bootstrap** until tomorrow course that will be about front-end in Rails. 
 
 ```console
 yarn add bootstrap 
