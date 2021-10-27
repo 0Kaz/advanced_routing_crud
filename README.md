@@ -2,20 +2,20 @@
 
 
 ***SUMMARY***
-- [Setting Up Our Environment](#setting-up-our-environment)
+ - [Setting Up Our Environment](#setting-up-our-environment)
       - [Bootstrap](#bootstrap)
       - [Simple Form](#simple_form)
-- [Advanced CRUD](#advanced-CRUD)
+ - [Advanced CRUD](#advanced-CRUD)
       - [Resources](#simple_form)   
       - [Scaffold](#scaffold)
       - [Seeding](#seeding)
       - [Destroy ALL](#destroy_all)
       - [Route for 5 stars restaurants Example](#route-for-5-stars-restaurants-example)
       - [Adding a chef example](#adding-a-chef-example)
-- [Nested Resources](#nested-resources)
+ - [Nested Resources](#nested-resources)
       - [Adding a review to restaurant example](#adding-a-review-to-restaurant-example)
       - [Destroying a review to a restaurant example](#destroying-a-review-to-a-restaurant-example)
-- [Challenge Yelp MVP Tips](#challenge-yelp-mvp-tips)
+ - [Challenge Yelp MVP Tips](#challenge-yelp-mvp-tips)
         
 
 # SETTING UP OUR ENVIRONMENT 
@@ -418,6 +418,26 @@ end
 </ul>
 ```
 
-## Challenge Yelp MVP
+## Challenge Yelp MVP tips
 
-Challenge yelp
+```Guess what? Rake is BACK``` :love:
+
+In this challenge, you will have the perfect opportunity to use nested resources + CRUD. 
+
+I will recommend you guys to read the whole exercice so that you can have a little idea of the big picture before starting coding, my advice is to not code anything until you finish reading your whole challenge.
+
+We will build a two-model Rails app with a restaurant and anonymous reviews.
+
+1. We need then 2 models (review, restaurants)
+2. Generate their controllers
+3. Configure their routes
+4. Set up ```validations``` in their model
+5. Seeding !
+6. Configure their route
+7. Set up their controllers
+8. And finally work on their views
+
+### Don't leave your buddy behind and work together, like Helen Keller once said: "Alone we can do so little; together we can do so much." 
+
+
+
