@@ -418,13 +418,15 @@ end
 </ul>
 ```
 
-## Challenge Yelp MVP
+## Challenge Yelp MVP tips
 
 ```Guess what? Rake is BACK``` :love:
 
 In this challenge, you will have the perfect opportunity to use nested resources + CRUD. 
 
-So we will a two-model Rails app with a restaurant and anonymous reviews.
+I will recommend you guys to read the whole exercice so that you can have a little idea of the big picture before starting coding, my advice is to not code anything until you finish reading your whole challenge.
+
+We will build a two-model Rails app with a restaurant and anonymous reviews.
 
 1. We need then 2 models (review, restaurants)
 2. Generate their controllers
@@ -434,4 +436,8 @@ So we will a two-model Rails app with a restaurant and anonymous reviews.
 6. Configure their route
 7. Set up their controllers
 8. And finally work on their views
+
+### Don't leave your buddy behind and work together, like Helen Keller once said: "Alone we can do so little; together we can do so much." 
+
+
 
