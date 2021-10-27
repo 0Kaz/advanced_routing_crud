@@ -57,6 +57,14 @@ bundle install
 rails generate simple_form:install --bootstrap
 ```
 
+
+## What NOT to do when you add a gem on your Gemfile
+
+Careful where you put your gems :pray:, if you add any gem that is NOT for your testing and development environment (such as : faker, simple_form ...etc)
+
+**Please add it before the development and test groups as such : **
+
+![What you should not do](https://res.cloudinary.com/kzkjr/image/upload/v1635332532/blogging/Capture_d_e%CC%81cran_2021-10-27_a%CC%80_11.51.13.png)
 # Advanced CRUD
 
 ## Resources
